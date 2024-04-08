@@ -12,7 +12,7 @@ import TESSERE from './pages/TESSERE';
 
 import NavMenu from './components/NavMenu.jsx';
 
-function App({ location }) {
+function App({ location, app, analytics }) {
 
   const hideNavBar = location.pathname === '/login';
 
@@ -20,7 +20,7 @@ function App({ location }) {
     <>
       {!hideNavBar && <NavMenu />}
       <Routes>
-        <Route path="/" element={<EVENTI />} />
+        <Route path="/" element={<EVENTI />} app={app} analytics={analytics} />
         <Route path="/evento/:id" element={<EVENTO_ID />} />
         <Route path="/gestione-utenti" element={<GESTIONE_UTENTI />} />
         <Route path="/login" element={<LOGIN />} />
