@@ -1,7 +1,10 @@
 import React from 'react'
+import { Container } from 'react-bootstrap';
 
 export default function SPESE_VARIABILI() {
   return (
-    <div>SPESE_VARIABILI</div>
+    <Container className='my-5'>
+      <div>SPESE_VARIABILI</div>
+    </Container>
   )
 }

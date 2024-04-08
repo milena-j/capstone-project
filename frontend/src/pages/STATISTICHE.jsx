@@ -1,7 +1,10 @@
 import React from 'react'
+import { Container } from 'react-bootstrap';
 
 export default function STATISTICHE() {
   return (
-    <div>STATISTICHE</div>
+    <Container className='my-5'>
+      <div>STATISTICHE</div>
+    </Container>
   )
 }
