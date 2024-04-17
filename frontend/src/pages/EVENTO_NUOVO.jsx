@@ -1,11 +1,11 @@
 import React from 'react'
-import UtentiMain from '../components/UtentiMain.jsx'
 import { Container } from 'react-bootstrap';
+import EventoNuovoMain from '../components/EventoNuovoMain';
 
-export default function GESTIONE_UTENTI() {
+export default function EVENTO_NUOVO() {
   return (
     <Container className='my-4'>
-      <UtentiMain />
+      <EventoNuovoMain />
     </Container>
   )
 }

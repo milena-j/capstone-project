@@ -1,10 +1,12 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
+import EventoIDmain from '../components/EventoIDmain';
 
 export default function EVENTO_ID() {
+
   return (
-    <Container className='my-5'>
-      <div>EVENTO_ID</div>
+    <Container fluid className='mb-4 px-0'>
+      <EventoIDmain />
     </Container>
   )
 }
